@@ -1,0 +1,412 @@
+.container > header .community-info .community-info-detail .free, .container > main .features .build .free {
+  padding: 12px 60px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #ff52bf;
+  border-radius: 21px;
+}
+
+.container > footer .aboutUs > ul > li, .container > footer .career > ul > li {
+  padding-bottom: 20px;
+}
+
+.container > footer .aboutUs > ul > li > a, .container > footer .career > ul > li > a {
+  color: #ffffff;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+}
+
+img {
+  display: block;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.headings {
+  font-family: "Poppins", sans-serif;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  font-family: "Open Sans", sans-serif;
+  max-width: 375px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container > header {
+  padding: 30px 20px;
+  background-image: url(../images/bg-hero-mobile.svg);
+  background-color: #ebfbff;
+}
+
+.container > header .community-header .community-header-logo {
+  float: left;
+  position: relative;
+  top: 2.5px;
+}
+
+.container > header .community-header .community-header-logo > a > img {
+  width: 100px;
+}
+
+.container > header .community-header .community-header-try {
+  float: right;
+}
+
+.container > header .community-header .community-header-try > a {
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #fff;
+  padding: 5px 20px;
+  border-radius: 13px;
+  -webkit-box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.container > header .community-info {
+  padding: 80px 20px 0px;
+  line-height: 1.5;
+}
+
+.container > header .community-info .community-info-detail .community-info-detail-title {
+  padding-bottom: 20px;
+  font-size: 24px;
+}
+
+.container > header .community-info .community-info-detail .community-info-detail-explain {
+  margin: 0 -5px;
+  padding-bottom: 25px;
+  font-size: 16px;
+}
+
+.container > header .community-info .community-info-img {
+  padding-top: 60px;
+}
+
+.container > header .community-info .community-info-img > img {
+  width: 100%;
+  height: auto;
+}
+
+.container > main .features {
+  padding: 60px 20px;
+}
+
+.container > main .features > div {
+  margin-bottom: 40px;
+}
+
+.container > main .features .feature {
+  padding: 50px;
+  padding-bottom: 40px;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.1), -5px -5px 10px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.1), -5px -5px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.container > main .features .feature .feature-img {
+  margin-bottom: 60px;
+}
+
+.container > main .features .feature .feature-img > img {
+  width: 100%;
+  height: auto;
+}
+
+.container > main .features .feature .feature-word .feature-word-title {
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.container > main .features .feature .feature-word .feature-word-detail {
+  margin: 0 -18px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #808d99;
+}
+
+.container > main .features .feature.user {
+  margin-bottom: 0;
+}
+
+.container > main .features .feature.user .feature-word .feature-word-detail {
+  margin: 0 -15px;
+}
+
+.container > main .features .build {
+  margin: 0 -8px;
+  position: relative;
+  top: 120px;
+  background-color: #fff;
+}
+
+.container > main .features .build .feature-title {
+  margin: 0 -26px;
+  padding-bottom: 30px;
+}
+
+.container > main .features .build .free {
+  padding: 12px 40px;
+}
+
+.container > footer {
+  color: #ffffff;
+  background-color: #00252e;
+  padding: 130px 20px 50px;
+  text-align: left;
+}
+
+.container > footer .contact {
+  padding-bottom: 30px;
+  font-size: 16px;
+}
+
+.container > footer .contact > div {
+  position: relative;
+  padding-left: 35px;
+  padding-bottom: 30px;
+}
+
+.container > footer .contact .contact-logo {
+  padding-left: 0;
+}
+
+.container > footer .contact .contact-logo > img {
+  width: 150px;
+  -webkit-filter: brightness(16) contrast(4.4) hue-rotate(217deg) saturate(9.9);
+  filter: brightness(16) contrast(4.4) hue-rotate(217deg) saturate(9.9);
+}
+
+.container > footer .contact .contact-address {
+  line-height: 1.5;
+}
+
+.container > footer .contact .contact-address > img {
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
+
+.container > footer .contact .contact-phone > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.container > footer .contact .contact-phone > a {
+  color: #ffffff;
+}
+
+.container > footer .contact .contact-email > img {
+  position: absolute;
+  top: 3px;
+  left: 0;
+}
+
+.container > footer .contact .contact-email > a {
+  color: #ffffff;
+}
+
+.container > footer .socialMedia {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.container > footer .socialMedia > ul {
+  display: inline-block;
+  padding-bottom: 20px;
+}
+
+.container > footer .socialMedia > ul > li {
+  float: left;
+}
+
+.container > footer .socialMedia > ul > li > a {
+  margin-right: 15px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 15px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.container > footer .socialMedia > ul > li:last-child > a {
+  margin-right: 0;
+}
+
+.container > footer .socialMedia .copyRight {
+  font-size: 12px;
+}
+
+@media (min-width: 1440px) {
+  .container > header .community-info .community-info-detail > .free, .container > main .features .build .free {
+    padding: 15px 70px;
+    font-size: 14px;
+    border-radius: 26px;
+  }
+  .container {
+    max-width: 1440px;
+  }
+  .container > header {
+    padding: 50px 80px;
+    background-image: url(../images/bg-hero-desktop.svg);
+  }
+  .container > header .community-header .community-header-logo {
+    top: 5.5px;
+  }
+  .container > header .community-header .community-header-logo > a > img {
+    width: 200px;
+  }
+  .container > header .community-header .community-header-try > a {
+    padding: 15px 60px;
+    border-radius: 23px;
+    font-size: 14px;
+  }
+  .container > header .community-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 5px 0 0;
+  }
+  .container > header .community-info .community-info-detail {
+    width: 40%;
+    position: relative;
+    top: 160px;
+    text-align: left;
+  }
+  .container > header .community-info .community-info-detail .community-info-detail-title {
+    font-size: 40px;
+  }
+  .container > header .community-info .community-info-detail .community-info-detail-explain {
+    margin: 0;
+    font-size: 18px;
+  }
+  .container > header .community-info .community-info-img {
+    width: 55%;
+  }
+  .container > main .features {
+    padding: 150px 100px 100px;
+    text-align: left;
+  }
+  .container > main .features .feature {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-left: 120px;
+  }
+  .container > main .features .feature .feature-img {
+    margin-bottom: 0;
+    width: 40%;
+  }
+  .container > main .features .feature .feature-word {
+    position: relative;
+    width: 45%;
+    top: 110px;
+  }
+  .container > main .features .feature .feature-word .feature-word-title {
+    font-size: 26px;
+  }
+  .container > main .features .feature .feature-word .feature-word-detail {
+    margin: 0;
+    font-size: 18px;
+  }
+  .container > main .features .grow {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  .container > main .features .user {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  .container > main .features .build {
+    display: block;
+    margin: 0 auto;
+    padding: 50px 0;
+    width: 60%;
+    text-align: center;
+    position: relative;
+    top: 180px;
+  }
+  .container > main .features .build .feature-title {
+    font-size: 28px;
+  }
+  .container > main .features .build .free {
+    padding: 25px 85px;
+    font-size: 18px;
+    border-radius: 35px;
+  }
+  .container > footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 150px 70px 50px 100px;
+  }
+  .container > footer .contact {
+    width: 40%;
+    padding: 0;
+    padding-right: 100px;
+  }
+  .container > footer .contact .contact-logo > img {
+    width: 250px;
+  }
+  .container > footer .aboutUs {
+    width: 20%;
+    padding-left: 40px;
+    padding-top: 70px;
+  }
+  .container > footer .career {
+    width: 20%;
+    padding-top: 70px;
+  }
+  .container > footer .socialMedia {
+    width: 20%;
+    position: relative;
+    padding: 0;
+    padding-top: 70px;
+    text-align: left;
+  }
+  .container > footer .socialMedia > ul {
+    text-align: center;
+  }
+  .container > footer .socialMedia .copyRight {
+    position: absolute;
+    bottom: 0;
+  }
+}
+/*# sourceMappingURL=main.css.map */

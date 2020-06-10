@@ -1,0 +1,412 @@
+// primary color
+$pink: hsl(322, 100%, 66%);
+
+// neutral color
+$veryPaleCyan: hsl(193, 100%, 96%);
+$veryDarkCyan: hsl(192, 100%, 9%);
+$grayishBlue: hsl(208, 11%, 55%);
+
+%pinkButton {
+  padding: 12px 60px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #ff52bf;
+  border-radius: 21px;
+}
+
+%footerLinks {
+  > ul {
+    > li {
+      padding-bottom: 20px;
+      > a {
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+}
+
+img {
+  display: block;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.headings {
+  font-family: "Poppins", sans-serif;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  font-family: "Open Sans", sans-serif;
+  max-width: 375px;
+  margin: 0 auto;
+  text-align: center;
+  > header {
+    padding: 30px 20px;
+    background-image: url(../images/bg-hero-mobile.svg);
+    background-color: $veryPaleCyan;
+    .community-header {
+      .community-header-logo {
+        float: left;
+        position: relative;
+        top: 2.5px;
+        > a {
+          > img {
+            width: 100px;
+          }
+        }
+      }
+      .community-header-try {
+        float: right;
+        > a {
+          font-size: 12px;
+          font-weight: 600;
+          background-color: #fff;
+          padding: 5px 20px;
+          border-radius: 13px;
+          box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.1);
+        }
+      }
+    }
+    .community-info {
+      padding: 80px 20px 0px;
+      line-height: 1.5;
+      .community-info-detail {
+        .community-info-detail-title {
+          padding-bottom: 20px;
+          font-size: 24px;
+        }
+        .community-info-detail-explain {
+          margin: 0 -5px;
+          padding-bottom: 25px;
+          font-size: 16px;
+        }
+        .free {
+          @extend %pinkButton;
+        }
+      }
+      .community-info-img {
+        padding-top: 60px;
+        > img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+  > main {
+    .features {
+      padding: 60px 20px;
+      > div {
+        margin-bottom: 40px;
+      }
+      .feature {
+        padding: 50px;
+        padding-bottom: 40px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.1),
+          -5px -5px 10px 0 rgba(0, 0, 0, 0.1);
+        .feature-img {
+          margin-bottom: 60px;
+          > img {
+            width: 100%;
+            height: auto;
+          }
+        }
+        .feature-word {
+          .feature-word-title {
+            padding-bottom: 20px;
+            font-size: 20px;
+          }
+          .feature-word-detail {
+            margin: 0 -18px;
+            font-size: 15px;
+            line-height: 1.5;
+            color: $grayishBlue;
+          }
+        }
+        &.user {
+          margin-bottom: 0;
+          .feature-word {
+            .feature-word-detail {
+              margin: 0 -15px;
+            }
+          }
+        }
+      }
+      .build {
+        margin: 0 -8px;
+        position: relative;
+        top: 120px;
+        background-color: #fff;
+        .feature-title {
+          margin: 0 -26px;
+          padding-bottom: 30px;
+        }
+        .free {
+          @extend %pinkButton;
+          padding: 12px 40px;
+        }
+      }
+    }
+  }
+  > footer {
+    color: #ffffff;
+    background-color: #00252e;
+    padding: 130px 20px 50px;
+    text-align: left;
+    .contact {
+      padding-bottom: 30px;
+      font-size: 16px;
+      > div {
+        position: relative;
+        padding-left: 35px;
+        padding-bottom: 30px;
+      }
+      .contact-logo {
+        padding-left: 0;
+        > img {
+          width: 150px;
+          -webkit-filter: brightness(16) contrast(4.4) hue-rotate(217deg)
+            saturate(9.9);
+          filter: brightness(16) contrast(4.4) hue-rotate(217deg) saturate(9.9);
+        }
+      }
+      .contact-address {
+        line-height: 1.5;
+        > img {
+          position: absolute;
+          top: 5px;
+          left: 0;
+        }
+      }
+      .contact-phone {
+        > img {
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+        > a {
+          color: #ffffff;
+        }
+      }
+      .contact-email {
+        > img {
+          position: absolute;
+          top: 3px;
+          left: 0;
+        }
+        > a {
+          color: #ffffff;
+        }
+      }
+    }
+    .aboutUs {
+      @extend %footerLinks;
+    }
+    .career {
+      @extend %footerLinks;
+    }
+    .socialMedia {
+      padding-top: 30px;
+      text-align: center;
+      > ul {
+        display: inline-block;
+        padding-bottom: 20px;
+        > li {
+          float: left;
+          > a {
+            margin-right: 15px;
+            width: 30px;
+            height: 30px;
+            border: 1px solid;
+            border-radius: 15px;
+            color: #ffffff;
+            font-size: 16px;
+            line-height: 30px;
+          }
+          &:last-child {
+            > a {
+              margin-right: 0;
+            }
+          }
+        }
+      }
+      .copyRight {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  %pinkButtonBig {
+    padding: 15px 70px;
+    font-size: 14px;
+    border-radius: 26px;
+  }
+
+  .container {
+    max-width: 1440px;
+    > header {
+      padding: 50px 80px;
+      background-image: url(../images/bg-hero-desktop.svg);
+      .community-header {
+        .community-header-logo {
+          top: 5.5px;
+          > a {
+            > img {
+              width: 200px;
+            }
+          }
+        }
+        .community-header-try {
+          > a {
+            padding: 15px 60px;
+            border-radius: 23px;
+            font-size: 14px;
+          }
+        }
+      }
+      .community-info {
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 0 0;
+        .community-info-detail {
+          width: 40%;
+          position: relative;
+          top: 160px;
+          text-align: left;
+          .community-info-detail-title {
+            font-size: 40px;
+          }
+          .community-info-detail-explain {
+            margin: 0;
+            font-size: 18px;
+          }
+          > .free {
+            @extend %pinkButtonBig;
+          }
+        }
+        .community-info-img {
+          width: 55%;
+        }
+      }
+    }
+    > main {
+      .features {
+        padding: 150px 100px 100px;
+        text-align: left;
+        .feature {
+          display: flex;
+          justify-content: space-between;
+
+          padding-left: 120px;
+          .feature-img {
+            margin-bottom: 0;
+            width: 40%;
+          }
+          .feature-word {
+            position: relative;
+            width: 45%;
+            top: 110px;
+            .feature-word-title {
+              font-size: 26px;
+            }
+            .feature-word-detail {
+              margin: 0;
+              font-size: 18px;
+            }
+          }
+        }
+        .grow {
+          flex-direction: row-reverse;
+        }
+        // .flow {
+        // }
+        .user {
+          flex-direction: row-reverse;
+        }
+        .build {
+          display: block;
+          margin: 0 auto;
+          padding: 50px 0;
+          width: 60%;
+          text-align: center;
+          position: relative;
+          top: 180px;
+          .feature-title {
+            font-size: 28px;
+          }
+          .free {
+            @extend %pinkButtonBig;
+            padding: 25px 85px;
+            font-size: 18px;
+            border-radius: 35px;
+          }
+        }
+      }
+    }
+    > footer {
+      display: flex;
+      padding: 150px 70px 50px 100px;
+      .contact {
+        width: 40%;
+        padding: 0;
+        padding-right: 100px;
+        .contact-logo {
+          > img {
+            width: 250px;
+          }
+        }
+      }
+      .aboutUs {
+        width: 20%;
+        padding-left: 40px;
+        padding-top: 70px;
+      }
+      .career {
+        width: 20%;
+        padding-top: 70px;
+      }
+      .socialMedia {
+        width: 20%;
+        position: relative;
+        padding: 0;
+        padding-top: 70px;
+        text-align: left;
+        > ul {
+          text-align: center;
+        }
+        .copyRight {
+          position: absolute;
+          bottom: 0;
+        }
+      }
+    }
+  }
+}
